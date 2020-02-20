@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+:root{
+    --warnapinknya:crimson;
+    --color-bg:#0c1327;
+}
+div{
+    border: 1px solid orangered transparent
+}
+
+/* header start */
+
+.header-container {
+    display: flex;
+    padding: 0px 3%;
+    justify-content: space-between;
+    height: 70px;
+    background-color: var(--color-bg);
+    color: white;
+    font-family: 'Lato', sans-serif;  
+}
+.headermenukiri{
+    display: flex;
+    flex-basis: 80%;
+}
+.brand{
+    width: 10%;
+    height: 70%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.brand:hover{
+    cursor: pointer;
+}
+
+.menukiri{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+.menukiri div:hover{
+    cursor: pointer;
+}
+.font-icon{
+    font-size: 11px;
+}
+
+.headermenukanan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.getstarted{
+    border-radius: 20px;
+    width: 124px;
+    padding: 10px;
+    padding-left: 33px;
+    border: 1px solid var(--warnapinknya);
+    transition: 500ms;
+    
+}
+.getstarted:hover{
+    cursor: pointer;
+}
+.signin:hover{
+    cursor: pointer;
+}
+.color-primary{
+    color: var(--warnapinknya);
+}
+/* header end */
+
+/* jumbotron1 start */
+.jumbotron1-container{
+    font-family: 'Overpass', sans-serif;
+    height: 90vh;
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+.teks-besar{
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+    padding: 0px 5% 0px 15%;
+}
+.tombol-container{
+    padding: 10px 45%;
+}
+.tombol{
+    background-color: var(--warnapinknya);
+    color: white;
+}
+.teks-sedang{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 20%;
+    font-weight: 100;
+    line-height: 38px;
+}
+.mobil{
+    position: absolute;
+    top: 500px;
+    left: 27%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.grafik{
+    position: absolute;
+    top: 640px;
+    left: 15%;
+}
+.code{
+    position: absolute;
+    top: 450px;
+    right: 17%;
+}
+.biru{
+    position: absolute;
+    top: 540px;
+    right: 12%;
+}
+/* jumbotron1 end */
